@@ -33,3 +33,7 @@ node_modules/**/*.env
 **.bak
 *.tmp
 ./middleware/old_files/
+
+# Ignore all files in the node_modules directory
+node_modules
+./gitignore
