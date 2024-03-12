@@ -15,8 +15,8 @@ class UserProfile extends React.Component {
         })
         .then(response => response.json())
         .then(data => {
-            console.log(data.user);
-            setUUID(data.user);
+            console.log(data.username);
+            setUUID(data.username);
         })
         .catch(error => {
             console.error('Error:', error);
